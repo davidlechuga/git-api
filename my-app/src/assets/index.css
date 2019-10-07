@@ -1,0 +1,15 @@
+/*    NAVBAR   */
+.navbar {
+    background: #0066cc;
+}
+
+
+
+/*    NAVLOGO   */
+.Navlogo {
+    width: 160px;
+    height: 100px;
+    position: relative;
+    top: 2px;
+}
+
