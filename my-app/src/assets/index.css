@@ -1,9 +1,12 @@
 /*    NAVBAR   */
 .navbar {
     background: #0066cc;
+    display: flex;
 }
 
-
+.navbar-nav {
+    display: flex;
+}
 
 /*    NAVLOGO   */
 .Navlogo {

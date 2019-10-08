@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
 
-import Index from'./views/Index';
+import HomePage from './views/HomePage';
 
-function App() {
-  return (
-    <div className="App">
-      <Index />
-    </div>
-  );
+class App extends Component {
+  render () {
+    return (
+      <Router>
+        <Switch>
+          <Route path='/' exact>
+            <HomePage />
+          </Route>
+        </Switch>
+      </Router>
+    )
+  }
 }
 
-export default App;
+export default App
